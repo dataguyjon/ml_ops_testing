@@ -1,0 +1,4 @@
+artifact_location: file:///C:/Projects/Machine%20Learning/ml_ops/mlflow-spark-summit-2019-master/mlflow-spark-summit-2019-master/mlruns/1
+experiment_id: '1'
+lifecycle_stage: active
+name: herpaderp

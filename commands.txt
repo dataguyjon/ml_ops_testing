@@ -1,0 +1,9 @@
+create a meta.yaml file like the one in mlruns\3
+
+check MLProject config file for correct entry point python file (main.py?)
+
+set MLFLOW_TRACKING_URI = "http://localhost:5000"
+
+mlflow run . -P alpha=0.01 -P l1_ratio=0.75 -P run_origin=LocalRun -P data_path=data/wine-quality-white.csv --experiment-id=3 --no-conda
+
+mlflow run https://github.com/amesar/mlflow-spark-summit-2019.git#sklearn/wine_quality -P alpha=0.01 -P l1_ratio=0.75 -P run_origin=GitRun -P data_path=data/wine-quality-white.csv --experiment-id=3 --no-conda

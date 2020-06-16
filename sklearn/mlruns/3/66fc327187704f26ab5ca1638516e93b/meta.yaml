@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Projects/Machine%20Learning/ml_ops/mlflow-spark-summit-2019-master/mlflow-spark-summit-2019-master/sklearn/mlruns/3/66fc327187704f26ab5ca1638516e93b/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '3'
+lifecycle_stage: active
+name: ''
+run_id: 66fc327187704f26ab5ca1638516e93b
+run_uuid: 66fc327187704f26ab5ca1638516e93b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1592322582235
+status: 1
+tags: []
+user_id: jwest
